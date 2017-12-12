@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoForSettings</string>
+
+    <string name="dialog_font_title">Select Font Size</string>
+    <string name="font_summary">Select Suitable Font Size</string>
+    <string name="font_title">Font Preference</string>
+
+
+
+</resources>

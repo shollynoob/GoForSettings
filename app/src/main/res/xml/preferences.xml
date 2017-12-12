@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <android.support.v7.preference.ListPreference
+            android:defaultValue="normal"
+            android:dialogTitle="@string/dialog_font_title"
+            android:entries="@array/labels_fontsize"
+            android:entryValues="@array/values_fontsize"
+            android:key="fontsize"
+            android:summary="@string/font_summary"
+            android:title="@string/font_title"/>
+
+</PreferenceScreen>

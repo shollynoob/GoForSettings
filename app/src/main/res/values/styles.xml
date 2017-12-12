@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+    </style>
+
+    <style name="small" parent="ThemeOverlay.AppCompat">
+        <item name="textSize">13sp</item>
+        <item name="HeadOne">12sp</item>
+    </style>
+
+    <style name="medium" parent="ThemeOverlay.AppCompat">
+        <item name="textSize">15sp</item>
+        <item name="HeadOne">14sp</item>
+    </style>
+
+    <style name="normal" parent="ThemeOverlay.AppCompat">
+        <item name="textSize">16sp</item>
+        <item name="HeadOne">15sp</item>
+    </style>
+
+    <style name="large" parent="ThemeOverlay.AppCompat">
+        <item name="textSize">18sp</item>
+        <item name="HeadOne">17sp</item>
+    </style>
+
+    <style name="extra_large" parent="ThemeOverlay.AppCompat">
+        <item name="textSize">20sp</item>
+        <item name="HeadOne">19sp</item>
+    </style>
+</resources>
